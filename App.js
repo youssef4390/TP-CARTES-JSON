@@ -8,7 +8,8 @@ export default function App() {
     < View style={styles.screen}>
       <StatusBar />
       <CardList />
-      <Button title="Ajouter une carte" onPress={() => alert('ici vous pouvez ajouter une carte!')} /> 
+      <Button title="Ajouter une carte" onPress={() => alert('ici vous pouvez ajouter une carte!')} //bouton pour ajouter une carte
+/> 
      </ View >
   );
 }
