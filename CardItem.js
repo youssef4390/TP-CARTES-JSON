@@ -9,7 +9,8 @@ export default function CardItem({ title, description, image }) {//cette fonctio
       <View style={styles.body}>
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.desc}>{description}</Text>
-        <Button title="Voir plus" onPress={() => alert(title)} color="#192634ff" />
+        <Button title="Voir plus" onPress={() => alert(title)} color="#192634ff" //bouton pour voir plus d'infos sur la carte 
+  />
       </View>
     </View>
   );
@@ -29,5 +30,6 @@ const styles = StyleSheet.create({
   title: { fontSize: 16, fontWeight: 'bold', marginBottom: 6 },
   desc: { color: '#555' }
 });
+
 
 
